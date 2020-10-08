@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/supermarket/supermarketo",
+    "pages/shoppingcart/shoppingcart",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFD600",
+    "navigationBarTitleText": "美团",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFBF8",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/supermarket/supermarket",
+      "text": "闪送超市",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/shoppingcart/shoppingcart",
+      "text": "购物车",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
